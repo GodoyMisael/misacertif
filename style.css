@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@300&display=swap');
+
+body { 
+ background-color: rgba(0, 0, 0, 0.39);
+ font-family: 'Gluten', cursive;
+    
+}
+
+.contanier { background: white;
+margin: 64px;   
+border-radius: 20px; 
+box-shadow:6px 6px 6px rgba(0, 0, 0, 0.37);
+padding: 64px;
+
+}
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.perfil {
+    display: flex;
+    
+
+}
+.foto {
+    border-radius: 400px;
+    max-height: 160px;
+    box-shadow:  0px 4px 4px rgba(0, 0, 0, 0.664);
+}
+
+.titulo {
+    margin-left: 16px;
+}
+
+.titulo h1 {
+
+    font-size: 40px;
+}
+.titulo h3 {
+    font-size: 24px;
+
+}
+
+.tema button {
+    align-self: flex-end;
+    padding: 8px 16px;
+    background: rgba(15, 4, 173, 0.404);
+    border-radius: 100px;
+}
+
+
+.projetos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:linear-gradient(#5158bb93, #00A5CF,#25A18E) ;
+    margin-top: 32px;
+    padding: 32px;
+    border-radius: 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.664);
+}
+.titulo-projeto {
+    list-style: none;
+    font-weight: 700;
+    font-size: 36px;
+}
+.item-projeto {
+    list-style-type: none;
+    font-size: 24px;
+    line-height: 50px;
+
+}
+
+.item-projeto a {
+    color: black;
+    text-decoration: none;
+}
+
+.dark {
+    background: rgba(0, 0, 0, 0.582);
+}
+.dark .contanier {
+    background: black;
+    color: white;
+}
+
+.dark .tema button {
+    background: white;
+    color: black;
+    border: 2px solid #f7f7f7;
+}
